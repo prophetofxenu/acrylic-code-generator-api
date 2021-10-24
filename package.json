@@ -1,0 +1,32 @@
+{
+  "name": "acrylic-code-generator-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "devstart": "nodemon --watch src/* --exec 'tsc && node dist/app.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prophetofxenu/acrylic-code-generator-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prophetofxenu/acrylic-code-generator-api/issues"
+  },
+  "homepage": "https://github.com/prophetofxenu/acrylic-code-generator-api#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "@typescript-eslint/parser": "^5.1.0",
+    "eslint": "^8.1.0",
+    "nodemon": "^2.0.14",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "express": "^4.17.1"
+  }
+}
