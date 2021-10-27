@@ -1,3 +1,6 @@
 [submodule "src/acg-lib"]
 	path = src/acg-lib
 	url = https://github.com/prophetofxenu/acrylic-code-generator-lib.git
+[submodule "src/ino-code"]
+	path = src/ino-code
+	url = https://github.com/prophetofxenu/acrylic-statue-ino-code.git
